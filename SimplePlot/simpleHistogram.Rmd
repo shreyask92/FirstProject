@@ -1,0 +1,32 @@
+---
+title: "SimpleHistogram"
+author: "Shreyas Krishnamurthy"
+date: "July 4, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simple Histogram
+
+This is a program to plot a simple histogram for a set of random numbers
+
+```{r numbers}
+
+rand_numbers <- sample(1000,250)
+
+```
+
+## Including Plots
+
+Generating the histogram
+
+```{r plot}
+
+x_hist <- hist(rand_numbers)
+x_hist
+
+```
+
