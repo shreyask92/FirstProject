@@ -30,3 +30,14 @@ x_hist
 
 ```
 
+An interactive plotly plot for the same number set
+
+```{r}
+library(plotly)
+
+x_histPlotly <- plot_ly(x = rand_numbers,
+                        type = "histogram")
+x_histPlotly
+
+```
+
