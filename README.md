@@ -1,6 +1,5 @@
-# FirstProject
-My first project using Git
+# R Tutorial
 
-Hi, this is my first project where I am trying to learn version control using Git.
+Tutorial to link RStudio to GitHub repo
 
 
